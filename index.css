@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 15px;
+}
+.all{
+    max-width: 1440px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:hsl(0, 0%, 95%);
+    width: 720px;
+    height: 380px;
+    display: flex;
+    position: relative;
+    padding: 10% 20% 0 20%;
+
+}
+
+.content-one{
+    padding: 20px 30px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+.content-two{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px 35px;
+   
+}
+.content-three{
+    padding: 20px 30px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+svg{
+    margin-bottom: 20px;
+}
+h3{
+font-family: 'Big Shoulders Display', cursive;
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 30px;
+}
+.btn{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    margin-top: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border: 2px solid transparent;
+    padding: 13px 25px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.btn2{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    margin-top: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border: 2px solid transparent;
+    padding: 13px 25px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.btn3{
+    background-color: hsl(0, 0%, 95%);
+   color: hsl(179, 100%, 13%);
+    margin-top: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    border: 2px solid transparent;
+    padding: 13px 25px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+background-color: transparent;
+cursor: pointer;
+color: hsl(0, 0%, 95%);
+border: 2px solid hsl(0, 0%, 95%);
+}
+@media only screen and (max-width: 375px) {
+ *{
+    padding: 0;
+    margin:0
+ }
+    .all{
+    max-width: 375px;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    padding: 5px 20px;
+   justify-content: center;
+   align-items: center;
+ }
+.content-one{
+    border-radius: unset;
+}
+.content-three{
+    border-radius: unset                ;
+}
+.attribution{
+    display:none;
+}
+}
